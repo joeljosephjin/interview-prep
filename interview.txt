@@ -1,0 +1,60 @@
+what is underfitting?
+    training acc bad, test acc bad
+    cant learn anything
+
+what is overfitting?
+    training acc good, test acc bad
+    learns noise from training data
+
+    smarter nn learns more garbage (high variance)
+    solve by regularization, cross-validation
+
+what is regularization?
+    prevent overfitting
+    generalize better
+
+    make nn dumber
+    l1, l2, dropout
+
+what is l1?
+    adds |w| to loss
+    w forced to 0
+
+what is l2?
+    adds |w|**2 to loss
+    w not forced to 0
+
+what is dropout?
+    turn off random neurons
+
+what is cross-validation?
+    split dataset to multiple train-val folds
+    prevent overfitting to val set
+    helps select hyperparams (incl model arch) with lowest cross-val error
+    after selecting hyperparams, train on whole data
+
+what is gradient descent?
+    calc loss, calc gradient, move a little
+    optimize parameters for small cost
+
+why relu activation better?
+    reduces load, turning most weights to zero firing
+
+what are some activation functions?
+    add non-linearity
+    relu - max(0,x) - dead relu - leaky relu
+    sigmoid - 1/(1-e^-x) - vanishing gradient at ends
+    tanh - 2sigmoid(2x)-1
+    use relu for beginners; technically domain specific
+
+why cnn over fully connected?
+    cnn use spatial info
+    translation invariant
+
+
+
+
+
+
+what is random forest?
+
