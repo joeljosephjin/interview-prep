@@ -19,10 +19,12 @@ what is regularization?
 what is l1?
     adds |w| to loss
     w forced to 0
+    lasso
 
 what is l2?
     adds |w|**2 to loss
     w not forced to 0
+    ridge
 
 what is dropout?
     turn off random neurons
@@ -51,6 +53,8 @@ why cnn over fully connected?
     cnn use spatial info
     translation invariant
 
+What is/How do you solve curse of dimensionality?
+    when dimension increases dense data becomes sparse
 
 
 
